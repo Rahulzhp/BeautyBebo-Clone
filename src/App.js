@@ -10,6 +10,7 @@ function App() {
       <h1>Hello Rahul to World</h1>
       <Navbar />
       <AllRoutes />
+      <FooterPart/>
     </div>
   );
 }

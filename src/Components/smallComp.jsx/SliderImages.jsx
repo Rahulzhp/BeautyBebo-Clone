@@ -57,13 +57,13 @@ function SliderImages ({data, path}) {
   
 
   return (
- <>
+ <div>
     <Wrap justify="center">
 
     <SimpleGrid w="fit-content"  spacing={3} columns={[1,2]}  >
 
-    <Image src={data[pre]} style={{cursor:"pointer"}} onClick={()=>Navigation(path)} /> 
-    <Image src={data[slide]} style={{cursor:"pointer"}} onClick={()=>Navigation(path)} /> 
+    <Image src={data[pre]} style={{cursor:"pointer",border:"0.5px solid gray"}} onClick={()=>Navigation(path)} /> 
+    <Image src={data[slide]} style={{cursor:"pointer",border:"0.5px solid gray"}} onClick={()=>Navigation(path)} /> 
     
 
 
@@ -71,7 +71,7 @@ function SliderImages ({data, path}) {
 
    </Wrap>
         
- </>
+ </div>
   )
 }
 

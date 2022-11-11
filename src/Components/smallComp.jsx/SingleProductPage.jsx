@@ -22,6 +22,7 @@ const SingleProductPage = () => {
  const [DefaultImg, setImage] = useState()
 
  const [bagbutton, setbagbutton] = useState(true)
+ const [count,setCount]=useState(1)
 
  const {CartDataToMatch,cartData, handleCart} = useContext(AppContext)
  
@@ -44,7 +45,7 @@ const SingleProductPage = () => {
       
         description: "shop more or go to cart.",
       
-        duration: 3000,
+        duration: 1500,
         isClosable: true,
       })
     
@@ -57,6 +58,7 @@ const SingleProductPage = () => {
     
 
   };
+
 
   
    // id is a string so we need to convert it to number
@@ -125,8 +127,8 @@ const SingleProductPage = () => {
 
         <VStack    w={{base:"full", md:"50%"}} h={{base:"full" }}  padding={{base:5,  md:8}} align="revert-layer" spacing={5} >
 
-        <Text fontSize={{base:"15px", md:"20px"}} fontWeight="bold" color="gray.500"  >Bewakoof</Text>
-        <Text   fontSize={{base:"xl", md:"2xl"}} color="gray.500" >{data[0].Title}</Text>
+        <Text fontSize={{base:"15px", md:"20px"}} fontWeight="bold" color="red.500"  >Beauty Bebo</Text>
+        <Text   fontSize={{base:"xl", md:"xl"}} color="black" >{data[0].Title}</Text>
         
       
         
@@ -143,55 +145,26 @@ const SingleProductPage = () => {
         
         <Divider />
 
-        <Badge  fontSize={{base:"15px", md:"20px"}}  variant="subtle" colorScheme="teal"> ₹{data[0].price - 50} for tribe members only </Badge>
+        <Badge  fontSize={{base:"15px", md:"20px"}}  variant="subtle" colorScheme="red"> ₹{data[0].price - 50} for Plus membershhip only </Badge>
         
-        <Text>TriBe members get an extra discount of ₹20 and FREE shipping.Learn more</Text>
+        <Text>Plus membership get an extra discount of ₹20 and FREE shipping.Learn more</Text>
 
         <Divider />
 
-        <Text fontWeight="extrabold">SELECT SIZE</Text>
+        <Text fontWeight="extrabold">Qty.</Text>
+        <Box>
+          <Button marginLeft={2} onClick={()=>setCount(count+1)}>+</Button>
+          <Button marginLeft={2}>{count}</Button>
+          <Button marginLeft={2} onClick={()=>setCount(count-1)}>-</Button>
+        </Box>
           
-          <HStack spacing={5}>
-          <Center w={{base:"40px", lg:"50px"}} h={{base:"40px", lg:"50px"}} fontSize={{base:"sm", lg:"xl"}} border="1px solid" color='black'>
-            S
-          </Center>
-          <Center w={{base:"40px", lg:"50px"}} h={{base:"40px", lg:"50px"}} fontSize={{base:"sm", lg:"xl"}} border="1px solid" color='black'>
-            M
-          </Center>
-          <Center w={{base:"40px", lg:"50px"}} h={{base:"40px", lg:"50px"}} fontSize={{base:"sm", lg:"xl"}} border="1px solid" color='black'>
-            L
-          </Center>
-          <Center w={{base:"40px", lg:"50px"}} h={{base:"40px", lg:"50px"}} fontSize={{base:"sm", lg:"xl"}} bg='tomato' color='white'>
-            XL
-          </Center>
-          <Center w={{base:"40px", lg:"50px"}} h={{base:"40px", lg:"50px"}} fontSize={{base:"sm", lg:"xl"}} border="1px solid" color='black'>
-            2XL
-          </Center>
-          <Center w={{base:"40px", lg:"50px"}} h={{base:"40px", lg:"50px"}} fontSize={{base:"sm", lg:"xl"}} border="1px solid" color='black'>
-            3XL
-          </Center>
-         
-          </HStack>
-
-          <Text>Garment:
-
-Chest (in Inch):
-
-44.0
-
-Front Length (in Inch):
-
-30.0
-
-Sleeve Length (in Inch):
-
-25.5</Text>
+          <Text fontSize={{base:"11px", md:"13px"}}  variant="subtle" color="teal">100% GENUINE PRODUCT & EASY RETURN POLICY</Text>
  
           <Divider />
 
         <HStack w="full" > 
 
-        <Button  onClick={()=>handleClick()} fontSize="x-large" padding={8} w="full" colorScheme='yellow'> 
+        <Button  onClick={()=>handleClick()} fontSize="19px" padding={5} w="half" colorScheme='pink'> 
 
         <BiShoppingBag fontSize={{base:"25px",sm:"25px", md:"3xl"}}/> 
         
@@ -210,9 +183,9 @@ Sleeve Length (in Inch):
         
         </Button>
 
-        <Button fontSize={{base:"25px",sm:"25px", md:"3xl"}} padding={8} w="full" colorScheme='teal' variant='outline'>
+        <Button fontSize={{base:"11px",sm:"13px", md:"19px"}} padding={5} w="half" backgroundColor="gray" variant='outline'>
             
-              <AiOutlineHeart  /> WISHLIST
+              <AiOutlineHeart color='teal' />
               
               
        </Button>

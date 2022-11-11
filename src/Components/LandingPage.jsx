@@ -9,6 +9,7 @@ import SliderImages from './smallComp.jsx/SliderImages'
 import StoopidCollection4D from './smallComp.jsx/StoopidCollection4D'
 import TwoImage from './smallComp.jsx/TwoImages'
 import styles from "./main.module.css";
+import Longimg from './smallComp.jsx/Longimg'
 
 
 
@@ -41,13 +42,14 @@ function LandingPage (){
   return (
 
     <div id={styles.landingPageTOP} >
+      <Longimg></Longimg>
    
    <SliderImages data={data.SliderData.men} path={path}  />
-   <TwoImage img1={data.longDiv.men} 
-   img2={data.smallProduct.men} 
-   img3={data.giftVoucher.forAll} path={path} 
-   />
    <PopularCat data={data.PopularCat.men} path={path}  />
+   
+   <TwoImage img1={data.longDiv.men} 
+   img3={data.giftVoucher.forAll} path={path} />
+   
 
         {/* SLIDER PENDING */}
 

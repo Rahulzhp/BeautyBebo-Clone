@@ -18,7 +18,7 @@ const TwoImage = ({img1, img2, img3, path}) => {
      <br />   
      <VStack  spacing={5} >
 
-          <Image w="full" height={193} src={img1}  style={{cursor:"pointer"}} onClick={()=>Navigation(path)} />
+          <Image w="full" src={img1}  style={{cursor:"pointer"}} onClick={()=>Navigation(path)} />
           <Grid justifyContent="center">
           
              <Image src={img2} style={{cursor:"pointer"}} onClick={()=>Navigation(path)}  />

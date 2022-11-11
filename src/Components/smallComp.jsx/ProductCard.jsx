@@ -33,10 +33,10 @@ moreImage,
       
       <HoverImage 
       
-      onClick={VisitSingleProduct} src={Display_image} hoverSrc={hover_Image} alt={Title} />
+      onClick={VisitSingleProduct} style={{width:"90%"}} src={Display_image} hoverSrc={hover_Image} alt={Title} />
       
       <VStack align="revert-layer" >
-        <Text fontSize={{base:"15", md:"20"}} fontStyle="oblique" fontWeight="bold" marginTop={2}  >Bewakoof</Text>
+        <Text fontSize={{base:"15", md:"20"}} fontStyle="oblique" fontWeight="bold" marginTop={2}  >Beauty Bebo</Text>
         <Text  fontSize="15" color="gray.500" >{Title}</Text>
         <Flex>
         <Text fontWeight="bold" fontSize={{base:"xl",md:"2xl"}} >₹{price}</Text>
@@ -44,7 +44,7 @@ moreImage,
         <Text as="s" marginLeft={4} >₹{strikeprice}</Text>
         </Flex>
 
-        <Badge variant="subtle" colorScheme="teal"> ₹{price - 50} for tribe members   </Badge>
+        <Badge variant="subtle" colorScheme="red"> ₹{price - 50} for tribe members   </Badge>
        </VStack>
       
      

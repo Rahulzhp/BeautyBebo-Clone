@@ -28,17 +28,17 @@ const AllRoutes = () => {
             <Route path='/landingPage/accessories' element={<LandingPageAcc />} />
 
             <Route path='/men-clothing' 
-            element={ <PrivateRoute> <MenProducts /> </PrivateRoute> } />
+            element={  <MenProducts />  } />
 
             <Route path='/women-clothing' 
-            element={ <PrivateRoute> <WomenProducts/></PrivateRoute> } />
+            element={  <WomenProducts/> } />
 
             <Route path='/mobile-covers-india' 
             element={ <PrivateRoute> <h1>MEN PAGE</h1> </PrivateRoute> } />
 
             <Route path='/products/:id' element={
 
-            <PrivateRoute>  <SingleProductPage /> </PrivateRoute>
+              <SingleProductPage /> 
             
             } />
 

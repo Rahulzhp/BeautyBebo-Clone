@@ -128,7 +128,6 @@ const PriceSorthigh = ()=>{
 
       </Stack>
 
-      <ProductCard />
 
 
     </Stack>

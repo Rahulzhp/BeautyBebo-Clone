@@ -6,6 +6,7 @@ import { AppContext } from '../../Context/AppContext';
 import Loading from './Loding';
 import { AiOutlineHeart } from "react-icons/ai";
 import { BiShoppingBag, BiPlus, BiMinus } from "react-icons/bi";
+import Longimg from './Longimg';
 
 const SingleProductPage = () => {
 
@@ -99,7 +100,9 @@ const SingleProductPage = () => {
 
 
   return (
-    <Stack w="full"  margin="auto" alignSelf="center" justifyContent="center" direction={{base:"column", md:"row"}} spacing={{base:0, sm:30}} padding={5} justify="center" style={{ marginTop:"150px", marginBottom:"50px"}} >
+    <>
+     <img style={{marginTop:"73px"}} src="https://www.beautybebo.com/pub/media/ads/ad-desktop.jpg"></img>
+    <Stack w="full"  margin="auto" alignSelf="center" justifyContent="center" direction={{base:"column", md:"row"}} spacing={{base:0, sm:30}} padding={5} justify="center" style={{ marginTop:"11px", marginBottom:"50px"}} >
 
        <Stack   
        flexDirection={{base:"column-reverse", md:"row"}} spacing={5} padding={5}> 
@@ -183,12 +186,12 @@ const SingleProductPage = () => {
         
         </Button>
 
-        <Button fontSize={{base:"11px",sm:"13px", md:"19px"}} padding={5} w="half" backgroundColor="gray" variant='outline'>
+        <button >
             
-              <AiOutlineHeart color='teal' />
+              <Image width="10%" src='https://media.istockphoto.com/id/1128400054/vector/heart-symbol-of-love-and-valentines-day-flat-red-icon-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=COn_iSO6PaIo3SZX1vUfDia4xNQl12SjoLZ_y46I0fY='></Image>
               
               
-       </Button>
+       </button>
 
 
         </HStack>
@@ -199,6 +202,7 @@ const SingleProductPage = () => {
        
       
     </Stack>
+    </>
   )
 }
 

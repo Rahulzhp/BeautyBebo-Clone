@@ -10,6 +10,8 @@ import StoopidCollection4D from './smallComp.jsx/StoopidCollection4D'
 import TwoImage from './smallComp.jsx/TwoImages'
 import styles from "./main.module.css";
 import Longimg from './smallComp.jsx/Longimg'
+import GrdSp from './GrdSp'
+import Grd from "./smallComp.jsx/Grd"
 
 
 
@@ -57,10 +59,11 @@ function LandingPage (){
 
 
    <DiscountProduct data={data.DiscountProduct.men} path={path} />
+   <GrdSp></GrdSp>
  
    
 
-   <SliderImages data={data.SliderData.men2} path={path}  />
+   
 
    {/* SLIDER PENDING */}
 

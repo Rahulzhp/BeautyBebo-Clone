@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { AppContext } from "../Context/AppContext";
 import Loading from "./smallComp.jsx/Loding";
+import Longimg from "./smallComp.jsx/Longimg";
 
 
 const Login = () => {
@@ -34,7 +35,7 @@ const Login = () => {
       
         description: "Redirecting To Home Page.",
         status: 'success',
-        duration: 3000,
+        duration: 1500,
         isClosable: true,
       })
 
@@ -42,7 +43,7 @@ const Login = () => {
       loginUser(Name)
       console.log(Name)
       navigate("/");
-    }, 2000);
+    }, 1500);
   };
 
  
@@ -71,18 +72,19 @@ const Login = () => {
 
   return (
     <>
-      <Stack justify="center" direction={{base:"column" ,sm:"column", md:"row"}} marginTop={200} marginBottom={100} className={styles.main}>
+    <img style={{marginTop:"73px"}} src="https://www.beautybebo.com/pub/media/ads/ad-desktop.jpg"></img>
+      <Stack justify="center" direction={{base:"column" ,sm:"column", md:"row"}} marginTop="13px" marginBottom={100} className={styles.main}>
         
         <VStack 
        
         alignSelf="center" height={{base:"30vh" ,sm:"30vh", md:"60vh"}} width={{base:"300px", sm:"300px", md:"50%"}} className={styles.submain}>
-          <h1 style={{fontWeight : "bold"}} >
-            Welcome to the world of Bewakoof!
+          <h1 style={{fontWeight : "bold",color:"teal"}} >
+            Welcome to the world of BeautyBebo!
           </h1>
           <div style={{width : "80%", margin : "auto"}}>
             <img
               style={{width : "100%"}}
-              src="https://images.bewakoof.com/web/group-19-1617704502.png"
+              src="https://www.creativebeautytips.com/wp-content/uploads/2020/08/beautybebo.gif"
               alt="welcome"
             />
           </div>
@@ -92,9 +94,9 @@ const Login = () => {
         spacing={5}
         alignSelf="center"  
         w={{base:"300px",sm:"420px", md:"50%"}}  className={styles.loginmain} >
-          <h2 style={{fontWeight :"bold"}}>Log in / Sign up</h2>
+          <h2 style={{fontWeight :"bold",fontSize:"20px"}}>Log in / Sign up</h2>
           <p className={styles.loginP}>
-            for Latest trends, exciting offers and everything Bewakoof!
+            for Latest trends, exciting offers and everything at BeautyBebo!
           </p>
           <Input
         minH={{base:"40px", md:"50px"}}
@@ -140,7 +142,7 @@ minH={{base:"40px", md:"50px"}}
          
            w={{base:"300px", sm:"420px"}}
             style={{
-              backgroundColor: "#00AFAF",
+              backgroundColor: "#C83390",
               border: "none",
               color: " white",
               padding: "15px 32px",
@@ -184,7 +186,7 @@ minH={{base:"40px", md:"50px"}}
 
               backgroundColor: "white",
               color: " #6B6B6B",
-              padding: "5px 40px 10px 40px",
+              padding: "7px 40px 10px 40px",
               textAlign: "center",
               textDecoration: "none",
               display: "flex",
@@ -214,7 +216,7 @@ minH={{base:"40px", md:"50px"}}
                 style={{
                   backgroundColor: "white",
                   color: " #6B6B6B",
-                  padding: "5px 40px 5px 30px",
+                  padding: "5px 41px 5px 40px",
                   textAlign: "center",
                   textDecoration: "none",
                   display: "flex",
@@ -240,7 +242,7 @@ minH={{base:"40px", md:"50px"}}
                 style={{
                   backgroundColor: "white",
                   color: " #6B6B6B",
-                  padding: "5px 25px 5px 20px",
+                  padding: "5px 32px 5px 32px",
                   textAlign: "center",
                   textDecoration: "none",
                   display: "flex",
@@ -272,7 +274,7 @@ minH={{base:"40px", md:"50px"}}
                 color: "gray",
               }}
             >
-              By creating an account or logging in, you agree with Bewakoof's
+              By creating an account or logging in, you agree with BeautyBebo's
               <a
                 style={{
                   textDecoration: "none",

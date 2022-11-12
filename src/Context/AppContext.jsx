@@ -112,10 +112,9 @@ const data = {
 
     DiscountProduct: {
       men:[
-        "https://images.bewakoof.com/uploads/grid/app/b1g1-mid-banner-1658840210.jpg",
-        "https://images.bewakoof.com/uploads/grid/app/undrdawg-mid-banner2-1660818217.jpg",
-        "https://images.bewakoof.com/uploads/grid/app/sweatshirt-men-1660737200.jpg",
-        "https://images.bewakoof.com/uploads/grid/app/play-men-banner-1660743046.jpg"
+        "https://www.beautybebo.com/pub/media/ads/joy_banner.gif",
+        "https://www.beautybebo.com/pub/media/ads/lotus_banner.gif",
+        
       ],
       women: [
         "https://images.bewakoof.com/uploads/grid/app/new-mid-banner-2022-plus-size-w-1660204325.jpg",
@@ -144,8 +143,64 @@ const data = {
 
   }  
   //npm i react-hover-image
+  
+    
 
 const AllProductsData = {
+
+  Gd : [
+    {
+      id:1,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/b/b/bbj0001565-1.jpg",
+      tit:"Miss Claire Blusher Kit - 3660-B-3",
+      pr:410,
+      nt:900
+    },
+    {
+      id:2,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
+      tit:"Ponds Super Light Gel Oil Free",
+      pr:265,
+      nt:630
+    },
+    {
+      id:3,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
+      tit:"Ponds Super Light Gel Oil Free",
+      pr:265,
+      nt:630
+    },
+    {
+      id:4,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
+      tit:"Ponds Super Light Gel Oil Free",
+      pr:265,
+      nt:630
+    },
+    {
+      id:5,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
+      tit:"Ponds Super Light Gel Oil Free",
+      pr:265,
+      nt:630
+    },
+    {
+      id:8,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
+      tit:"Ponds Super Light Gel Oil Free",
+      pr:265,
+      nt:630
+    },
+    {
+      id:9,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
+      tit:"Ponds Super Light Gel Oil Free",
+      pr:265,
+      nt:630
+    },
+  ],
+
+
   menData : [
     {
       id:1,
@@ -162,7 +217,7 @@ const AllProductsData = {
     },
     {
       id:2,
-      Display_image : "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
+      Display_image : "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/p/o/ponds_super_light_gel_oil_free_moisturiser_with_hyaluronic_acid_vitamin_e2.jpg",
       hover_Image: "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/2/_/2_172_2.jpg",
       Title: "Gillette Venus Razor With Aloe Extract For Women",
       price:200,

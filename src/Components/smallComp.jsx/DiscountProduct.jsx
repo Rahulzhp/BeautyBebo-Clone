@@ -24,7 +24,7 @@ const DiscountProduct = ({data,path}) => {
           <SimpleGrid columns={[1,2,2]} spacing="2"  >
 
             {data.map((el)=>  (
-                <Image src={el} style={{cursor:"pointer"}} onClick={()=>Navigation(path)} />
+                <Image src={el} style={{cursor:"pointer",width:"100%",marginRight:"55px"}} onClick={()=>Navigation(path)} />
                 ) )}
 
           </SimpleGrid>

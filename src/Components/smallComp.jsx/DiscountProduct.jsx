@@ -19,8 +19,8 @@ const DiscountProduct = ({data,path}) => {
   return (
 
     
-        <VStack justify="center" marginTop="5" w="full" >
-        <Text fontSize="20" fontWeight="bold"  >DISCOUNT PE DISCOUNT </Text>
+        <VStack justify="center" marginTop="3" w="full" >
+        <Text fontSize="20" fontWeight="bold" marginBottom="5" >DISCOUNT PE DISCOUNT </Text>
           <SimpleGrid columns={[1,2,2]} spacing="2"  >
 
             {data.map((el)=>  (

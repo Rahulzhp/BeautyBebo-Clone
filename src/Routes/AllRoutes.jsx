@@ -36,7 +36,7 @@ const AllRoutes = () => {
             <Route path='/mobile-covers-india' 
             element={ <PrivateRoute> <h1>MEN PAGE</h1> </PrivateRoute> } />
 
-            <Route path='/products/:id' element={
+            <Route path='/products/:id' element={ 
 
               <SingleProductPage /> 
             
@@ -44,9 +44,9 @@ const AllRoutes = () => {
 
             <Route path='/login' element={<Login />} />
 
-            <Route path='/register' element={<h1>REGISTER PAGE</h1>} />
+            <Route path='/register' element={<PrivateRoute><h1>REGISTER PAGE</h1></PrivateRoute>} />
 
-            {/* NAVBAR IS DIFFERENT */}
+            
             <Route path='/cart' 
             element={ <PrivateRoute> <Cart /> </PrivateRoute> } />
 

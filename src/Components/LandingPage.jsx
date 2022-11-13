@@ -17,10 +17,11 @@ import Grd from "./smallComp.jsx/Grd"
 
 function LandingPage (){
 
-  const {data} = useContext(AppContext)
+  const {data,AllProductsData} = useContext(AppContext)
 
   // for products
  const path = "/men-clothing"
+ 
 
  // is Loading   // 
  const [isLoading, setIsLoading] = useState(true);
@@ -52,14 +53,9 @@ function LandingPage (){
    <TwoImage img1={data.longDiv.men} 
    img3={data.giftVoucher.forAll} path={path} />
    
-
-        {/* SLIDER PENDING */}
-
-      
-
-
+   <h1 style={{fontSize:"20px",marginLeft:"620px",marginTop:"15px",fontWeight:"bold"}}>BEST SELLER</h1>
+   <GrdSp ></GrdSp>
    <DiscountProduct data={data.DiscountProduct.men} path={path} />
-   <GrdSp></GrdSp>
  
    
 
@@ -68,7 +64,7 @@ function LandingPage (){
    {/* SLIDER PENDING */}
 
   
-   <StoopidCollection4D data={data.DiscountProduct.stoopid} path={path}  />
+   
    <TwoImage img1={data.longDiv.men2} 
    img3={data.longDiv.men3} 
    path={path} 

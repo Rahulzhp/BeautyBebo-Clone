@@ -150,51 +150,58 @@ const AllProductsData = {
 
   Gd : [
     {
-      id:1,
-      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/b/b/bbj0001565-1.jpg",
+      id:13,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/f/a/fa26628nyo3000000052_1.jpg",
       tit:"Miss Claire Blusher Kit - 3660-B-3",
       pr:410,
       nt:900
     },
     {
-      id:2,
-      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
-      tit:"Ponds Super Light Gel Oil Free",
+      id:14,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/8/0/806360104156_1.jpg",
+      tit:"Lotus Organics Blissful Perfecting Masque",
       pr:265,
       nt:630
     },
     {
-      id:3,
-      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
-      tit:"Ponds Super Light Gel Oil Free",
+      id:15,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/0/4/04a6987wow1.jpg",
+      tit:"Wow Skin Science Coconut Super Rich Facial Toner",
       pr:265,
       nt:630
     },
     {
-      id:4,
-      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
-      tit:"Ponds Super Light Gel Oil Free",
+      id:16,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/u/n/untitled-204.jpg",
+      tit:"Fiama Bath Essentials Hair Wrapper",
       pr:265,
       nt:630
     },
     {
-      id:5,
-      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
-      tit:"Ponds Super Light Gel Oil Free",
+      id:17,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/u/n/untitled-48.jpg",
+      tit:"L'Oreal Paris Glycolic Bright Day Regime",
       pr:265,
       nt:630
     },
     {
-      id:8,
-      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
-      tit:"Ponds Super Light Gel Oil Free",
+      id:18,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/v/1/v143.jpg",
+      tit:"Vega Vhss-01 Miss Perfect Styling Kit",
       pr:265,
       nt:630
     },
     {
-      id:9,
-      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
-      tit:"Ponds Super Light Gel Oil Free",
+      id:19,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/d/3/d30.jpg",
+      tit:"Denver Insight Eau De Perfume",
+      pr:265,
+      nt:630
+    },
+    {
+      id:20,
+      Dp:"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-75.jpg",
+      tit:"Nivea Talc, Pure Talcum Powder - Pack Of 2",
       pr:265,
       nt:630
     },
@@ -376,20 +383,21 @@ const AllProductsData = {
         
       ]
     },
+   
     
    
   ],
   womenData : [
     {
-      id:13,
-      Display_image : "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810540-1.jpg",
-      hover_Image: "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810556-4.jpg",
-      Title:"Naaz's Black Friends Typography T-shirt",
+      id:55,
+      Display_image : "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
+      hover_Image: "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/1/_/1_209_6.jpg",
+      Title:"Ponds Oil Free Mostirizer",
       price:699,
       strikeprice:1299,
       amount:1,
       moreImage: [
-        "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810540-1.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/b/b/bbj0001565-1.jpg",
         "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810556-4.jpg",
         "https://i.im.ge/2022/07/29/Fwb5aG.jpg",
         "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810566-6.jpg",
@@ -397,7 +405,7 @@ const AllProductsData = {
       ]
     },
     {
-      id:14,
+      id:56,
       Display_image : "https://images.bewakoof.com/t1080/women-s-red-boyfriend-t-shirt-170465-1658918677-1.jpg",
       hover_Image: "https://images.bewakoof.com/t1080/women-s-red-boyfriend-t-shirt-170465-1658918699-5.jpg",
       Title: "Women's Red Boyfriend T-shirt",
@@ -575,6 +583,25 @@ const AllProductsData = {
     },
   ],
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const CartDataToMatch = [
   {
     id:1,
@@ -754,130 +781,120 @@ const CartDataToMatch = [
   
     {
       id:13,
-      Display_image : "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810540-1.jpg",
-      hover_Image: "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810556-4.jpg",
-      Title:"Naaz's Black Friends Typography T-shirt",
+      Display_image : "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/f/a/fa26628nyo3000000052_1.jpg",
+      hover_Image:"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/o/1/o13.jpg",
+      Title:"Miss Claire Blusher Kit - 3660-B-3",
       price:699,
       strikeprice:1299,
       amount:1,
       moreImage: [
-        "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810540-1.jpg",
-        "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810556-4.jpg",
-        "https://i.im.ge/2022/07/29/Fwb5aG.jpg",
-        "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810566-6.jpg",
-        "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810577-8.jpg"
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/f/a/fa26628nyo3000000052_1.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/o/1/o13.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/o/1/o12.jpg",
+        
       ]
     },
     {
       id:14,
-      Display_image : "https://images.bewakoof.com/t1080/women-s-red-boyfriend-t-shirt-170465-1658918677-1.jpg",
-      hover_Image: "https://images.bewakoof.com/t1080/women-s-red-boyfriend-t-shirt-170465-1658918699-5.jpg",
-      Title: "Women's Red Boyfriend T-shirt",
+      Display_image : "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/8/0/806360104156_1.jpg",
+      hover_Image: "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/8/0/806360104156_2.jpg",
+      Title: "Lotus Organics Blissful Perfecting Masque",
       price:699,
       strikeprice:14000,
       amount:1,
       moreImage: [
-        "https://images.bewakoof.com/t1080/women-s-red-boyfriend-t-shirt-170465-1658918677-1.jpg",
-        "https://images.bewakoof.com/t1080/women-s-red-boyfriend-t-shirt-170465-1658918699-5.jpg",
-        "https://images.bewakoof.com/t1080/women-s-red-boyfriend-t-shirt-170465-1658918683-2.jpg",
-        "https://images.bewakoof.com/t1080/women-s-red-boyfriend-t-shirt-170465-1658918693-4.jpg",
-        "https://images.bewakoof.com/t1080/women-s-red-boyfriend-t-shirt-170465-1658919098-6.jpg"
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/8/0/806360104156_1.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/8/0/806360104156_2.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/8/0/806360104255_1.jpg",
+
       ]
     },
     {
       id:15,
-      Display_image : "https://images.bewakoof.com/t1080/women-s-white-boyfriend-t-shirt-119167-1658407355-1.jpg",
-      hover_Image: "https://images.bewakoof.com/t1080/women-s-white-boyfriend-t-shirt-119167-1658407377-5.jpg",
-      Title: "Women's White Boyfriend T-shirt   ",
+      Display_image : "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/0/4/04a6987wow1.jpg",
+      hover_Image: "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/n/y/nywow000085_2.jpg",
+      Title: "Wow Skin Science Coconut Super Rich Facial Toner  ",
       price:399,
       strikeprice:999,
       amount:1,
       moreImage: [
-        "https://images.bewakoof.com/t1080/women-s-white-boyfriend-t-shirt-119167-1658407355-1.jpg",
-        "https://images.bewakoof.com/t1080/women-s-white-boyfriend-t-shirt-119167-1658407377-5.jpg",
-        "https://images.bewakoof.com/t1080/women-s-white-boyfriend-t-shirt-119167-1658407366-3.jpg",
-        "https://images.bewakoof.com/t1080/women-s-white-boyfriend-t-shirt-119167-1658407372-4.jpg",
-        "https://images.bewakoof.com/t1080/women-s-white-boyfriend-t-shirt-119167-1658407383-6.jpg"
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/n/y/nywow000085_2.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/0/4/04a6987wow1.jpg",
+        
       ]
     },
     {
       id:16,
-      Display_image : "https://images.bewakoof.com/t1080/climbing-pocket-panda-boyfriend-t-shirt-231686-1655748601-1.jpg",
-      hover_Image: "https://images.bewakoof.com/t1080/climbing-pocket-panda-boyfriend-t-shirt-231686-1655748622-5.jpg",
+      Display_image : "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/u/n/untitled-204.jpg",
+      hover_Image: "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/h/a/hair_wrapper2-min_1.jpg",
       price:499,
-      Title: "Climbing Pocket Panda Boyfriend T-Shirt      ",
+      Title: "Fiama Bath Essentials Hair Wrapper    ",
       strikeprice:1299,
       amount:1,
       moreImage: [
-        "https://images.bewakoof.com/t1080/climbing-pocket-panda-boyfriend-t-shirt-231686-1655748601-1.jpg",
-        "https://images.bewakoof.com/t1080/climbing-pocket-panda-boyfriend-t-shirt-231686-1655748622-5.jpg",
-        "https://images.bewakoof.com/t1080/climbing-pocket-panda-boyfriend-t-shirt-231686-1655748607-2.jpg",
-        "https://images.bewakoof.com/t1080/climbing-pocket-panda-boyfriend-t-shirt-231686-1655748612-3.jpg",
-        "https://images.bewakoof.com/t1080/climbing-pocket-panda-boyfriend-t-shirt-231686-1655748628-6.jpg"
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/u/n/untitled-204.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/h/a/hair_wrapper2-min_1.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/h/a/hair_wrapper1-min_1.jpg",
+        
       ]
     },
     {
       id:17,
-      Display_image : "https://images.bewakoof.com/t1080/women-s-varsity-green-tie-dye-oversized-t-shirt-512610-1658407432-1.jpg",
-      hover_Image: "https://images.bewakoof.com/t1080/women-s-varsity-green-tie-dye-oversized-t-shirt-512610-1658407453-5.jpg",
-      Title:" BTS Logo Typography Oversized Fit T-shirt",
+      Display_image : "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/u/n/untitled-48.jpg",
+      hover_Image: "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/4/d/4ddb0b98994993018840_8.jpg",
+      Title:" L'Oreal Paris Glycolic Bright Day Regime",
       price:799,
       strikeprice:1299,
       amount:1,
       moreImage: [
-        "https://images.bewakoof.com/t1080/women-s-varsity-green-tie-dye-oversized-t-shirt-512610-1658407432-1.jpg",
-        "https://images.bewakoof.com/t1080/women-s-varsity-green-tie-dye-oversized-t-shirt-512610-1658407453-5.jpg",
-        "https://images.bewakoof.com/t1080/women-s-varsity-green-tie-dye-oversized-t-shirt-512610-1658407437-2.jpg",
-        "https://images.bewakoof.com/t1080/women-s-varsity-green-tie-dye-oversized-t-shirt-512610-1658407448-4.jpg",
-        "https://images.bewakoof.com/t1080/women-s-varsity-green-tie-dye-oversized-t-shirt-512610-1658407459-6.jpg"
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/u/n/untitled-48.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/4/d/4ddb0b98994993018840_8.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/c/e/ceb86ed806360008010_1.jpg",
+   
       ]
     },
     {
       id:18,
-      Display_image : "https://images.bewakoof.com/t1080/women-s-yellow-bts-logo-typography-oversized-fit-t-shirt-468421-1658407143-4.jpg",
-      hover_Image: "https://images.bewakoof.com/t1080/women-s-yellow-bts-logo-typography-oversized-fit-t-shirt-468421-1658407126-1.jpg",
-      Title:"Women's Yellow BTS Logo Typography Oversized Fit T-shirt",
+      Display_image : "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/v/1/v143.jpg",
+      hover_Image: "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/5/9/596225avegax00000009_1.jpg",
+      Title:"Vega Vhss-01 Miss Perfect Styling Kit",
       price:444,
       strikeprice:899,
       amount:1,
       moreImage: [
-        "https://images.bewakoof.com/t1080/women-s-yellow-bts-logo-typography-oversized-fit-t-shirt-468421-1658407143-4.jpg",
-        "https://images.bewakoof.com/t1080/women-s-yellow-bts-logo-typography-oversized-fit-t-shirt-468421-1658407126-1.jpg",
-        "https://images.bewakoof.com/t1080/women-s-yellow-bts-logo-typography-oversized-fit-t-shirt-468421-1658407148-5.jpg",
-        "https://images.bewakoof.com/t1080/women-s-yellow-bts-logo-typography-oversized-fit-t-shirt-468421-1658407153-6.jpg",
-        "https://images.bewakoof.com/t1080/women-s-yellow-bts-logo-typography-oversized-fit-t-shirt-468421-1658407137-3.jpg"
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/v/1/v143.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/5/9/596225avegax00000009_1.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/7/d/7dd925avegax00000047_1.jpg",
+        
       ]
     },
     {
       id:19,
-      Display_image : "https://images.bewakoof.com/t1080/aks-green-solid-flared-anarkali-with-tussel-details-404759-1656161846-1.jpg",
-      hover_Image: "https://images.bewakoof.com/t1080/aks-green-solid-flared-anarkali-with-tussel-details-404759-1656161867-5.jpg",
-      Title: "Naaz's  Green Solid Flared Anarkali With Tussel Details",
+      Display_image : "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/d/3/d30.jpg",
+      hover_Image: "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/2/d24.jpg",
+      Title: "Denver Insight Eau De Perfume",
       price:800,
       strikeprice:1200,
       amount:1,
       moreImage: [
-        "https://images.bewakoof.com/t1080/aks-green-solid-flared-anarkali-with-tussel-details-404759-1656161846-1.jpg",
-        "https://images.bewakoof.com/t1080/aks-green-solid-flared-anarkali-with-tussel-details-404759-1656161867-5.jpg",
-        "https://images.bewakoof.com/t1080/aks-green-solid-flared-anarkali-with-tussel-details-404759-1656161851-2.jpg",
-        "https://images.bewakoof.com/t1080/aks-green-solid-flared-anarkali-with-tussel-details-404759-1656161861-4.jpg",
-        "https://images.bewakoof.com/t1080/aks-green-solid-flared-anarkali-with-tussel-details-404759-1656161851-2.jpg"
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/d/3/d30.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/2/d24.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/2/d26.png",
+       
       ]
     },
     {
       id:20,
-      Display_image : "https://images.bewakoof.com/t1080/aks-green-floral-printed-flared-anarkali-404758-1655937808-1.jpg",
-      hover_Image: "https://images.bewakoof.com/t1080/aks-green-floral-printed-flared-anarkali-404758-1655937825-4.jpg",
-      Title: "Naaz's Green Floral Printed Flared Anarkali ",
+      Display_image : "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/u/n/untitled-75.jpg",
+      hover_Image: "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/p/o/powder_1.jpg",
+      Title: "Nivea Talc, Pure Talcum Powder - Pack Of 2 ",
       price:786,
       strikeprice:999,
       amount:1,
       moreImage: [
-        "https://images.bewakoof.com/t1080/aks-green-floral-printed-flared-anarkali-404758-1655937808-1.jpg",
-        "https://images.bewakoof.com/t1080/aks-green-floral-printed-flared-anarkali-404758-1655937825-4.jpg",
-        "https://images.bewakoof.com/t1080/aks-green-floral-printed-flared-anarkali-404758-1655937814-2.jpg",
-        "https://images.bewakoof.com/t1080/aks-green-floral-printed-flared-anarkali-404758-1655937830-5.jpg",
-        "https://images.bewakoof.com/t1080/aks-green-floral-printed-flared-anarkali-404758-1655937814-2.jpg"
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/9afc37bdf46fae888adf23d57cf627ad/u/n/untitled-75.jpg",
+        "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/p/o/powder_1.jpg",
+ 
       ]
     },
     {

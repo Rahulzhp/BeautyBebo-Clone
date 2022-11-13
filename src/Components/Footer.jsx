@@ -6,7 +6,7 @@ const FooterPart = () => {
   return (
     <div id={styles.fooTerdivs}>
       <div id={styles.fooTer}>
-        <h1 className={styles.H1}>Bewakoof</h1>
+        <h1 className={styles.H1}>Beauty Bebo</h1>
         <div className={styles.footerGrid}>
           <div>
             <h4>CUSTOMERS SERVICE</h4>
@@ -111,199 +111,100 @@ const FooterPart = () => {
         <div className={styles.footerGrid} id={styles.footerGrid}>
           <div>
             <h3>
-              <NavLink to="/men">MEN'S CLOTHING</NavLink>
+              <NavLink to="/men">Makeup</NavLink>
             </h3>
             <p>
-              <NavLink to="/men">Top Wear</NavLink>
+              <NavLink to="/men">BB Cream</NavLink>
             </p>
             <p>
-              <NavLink to="/men">Men's New Arrivals</NavLink>
+              <NavLink to="/men">Blush</NavLink>
             </p>
             <p>
-              <NavLink to="/men">Men's Half Sleeve T-Shirts</NavLink>
+              <NavLink to="/men">Bronzers</NavLink>
             </p>
             <p>
-              <NavLink to="/men">Men's Hoodies & Sweatshirts</NavLink>
+              <NavLink to="/men">CC Cream</NavLink>
             </p>
             <p>
-              <NavLink to="/men">Men's Long Sleeve T-shirts</NavLink>
+              <NavLink to="/men">Contour</NavLink>
             </p>
             <p>
-              <NavLink to="/men">Men's Printed T-shirts</NavLink>
+              <NavLink to="/men">Concealer</NavLink>
             </p>
             <p>
-              <NavLink to="/men">Men's Plain T-shirts</NavLink>
+              <NavLink to="/men">Compact & Powder</NavLink>
             </p>
             <p>
-              <NavLink to="/men">Men's Vests</NavLink>
+              <NavLink to="/men">Face Primer</NavLink>
             </p>
             <p>
-              <NavLink to="/men">Men's Polo T-Shirts</NavLink>
+              <NavLink to="/men">Foundation</NavLink>
             </p>
-            <p>
-              <NavLink to="/men">Men's Kurtas</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Men's Combo T-Shirts</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Men's Shirts</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Men's Nightwear</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Men's Plus Size Store</NavLink>
-            </p>
-            <br />
-            <p>
-              <NavLink to="/men">Bottom Wear</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Men's Pajamas</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Men's Boxer Shorts</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Men's Shorts</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Men's Track Pants</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Men's Pants</NavLink>
-            </p>
-            <br />
-            <p>
-              <NavLink to="/men">Featured</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Men's Flip Flops</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Men's Sliders</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Marvel T-Shirts</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Disney T-Shirts</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Avengers T-Shirts</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Star Wars T-Shirts</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Batman T-Shirts</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Superman T-Shirts</NavLink>
-            </p>
-            <p>
-              <NavLink to="/men">Joker T-Shirts</NavLink>
-            </p>
+            
           </div>
           <div>
             <h3>
-              <NavLink to="/women">WOMEN'S CLOTHING</NavLink>
+              <NavLink to="/women">Skin</NavLink>
             </h3>
             <p>
-              <NavLink to="/women">Women's Top Wear</NavLink>
+              <NavLink to="/women">Anti- Ageing Creams</NavLink>
             </p>
             <p>
-              <NavLink to="/women">Women's New Arrivals</NavLink>
+              <NavLink to="/women">Bleach Creams</NavLink>
             </p>
             <p>
-              <NavLink to="/women">Women's T-Shirts</NavLink>
+              <NavLink to="/women">Brightening Cream</NavLink>
             </p>
             <p>
-              <NavLink to="/women">Women's Hoodies & Sweatshirts</NavLink>
+              <NavLink to="/women">Face Wash</NavLink>
             </p>
             <p>
-              <NavLink to="/women">Women's Top Wear</NavLink>
+              <NavLink to="/women">Facial Wipes</NavLink>
             </p>
             <p>
-              <NavLink to="/women">Women's 3/4 Sleeve T-Shirts</NavLink>
+              <NavLink to="/women">Face Oil</NavLink>
             </p>
             <p>
-              <NavLink to="/women">Women's Kurtis</NavLink>
+              <NavLink to="/women">Face Cleansers</NavLink>
             </p>
             <p>
-              <NavLink to="/women">Women's Kurtis</NavLink>
+              <NavLink to="/women">Facial Kits</NavLink>
             </p>
             <p>
-              <NavLink to="/women">Women's Nightwear</NavLink>
+              <NavLink to="/women">Face Tools</NavLink>
             </p>
-            <p>
-              <NavLink to="/women">Women's Plus Size Store</NavLink>
-            </p>
-            <br />
-            <p>
-              <NavLink to="/women">Women's Bottom Wear</NavLink>
-            </p>
-            <p>
-              <a href="//">Women's Pajamas</a>
-            </p>
-            <p>
-              <a href="//">Women's Boxer Shorts</a>
-            </p>
-            <p>
-              <a href="//">Women's Jeans</a>
-            </p>
-            <p>
-              <a href="//">Women's Joggers</a>
-            </p>
-            <p>
-              <a href="//">Women's Shorts</a>
-            </p>
-            <br />
-            <p>
-              <a href="//">BAGS</a>
-            </p>
-            <p>
-              <a href="//">Laptop Bags</a>
-            </p>
-            <p>
-              <a href="//">Small Backpacks</a>
-            </p>
-            <br />
-            <p>
-              <a href="//">Featured</a>
-            </p>
-            <p>
-              <a href="//">Women's Slides</a>
-            </p>
-            <p>
-              <a href="//">Women's Flip Flops</a>
-            </p>
+       
           </div>
           <div>
-            <h3>
-              <a href="/">MOBILE COVERS</a>
+            <h3 >
+              <a href="/">Personal Care</a>
             </h3>
             <p>
-              <a href="/">Brands</a>
+              <a href="/">Body Cleansers</a>
             </p>
             <p>
-              <a href="/">Realme</a>
+              <a href="/">Body Massage Oil</a>
             </p>
             <p>
-              <a href="/">Samsung</a>
+              <a href="/">Body Wash</a>
             </p>
             <p>
-              <a href="/">Xiaomi</a>
+              <a href="/">Creams</a>
             </p>
             <p>
-              <a href="/">Oneplus</a>
+              <a href="/">Essential Oils</a>
             </p>
             <p>
-              <a href="/">Vivo</a>
+              <a href="/">Foot Cream</a>
             </p>
             <p>
-              <a href="/">Oppo</a>
+              <a href="/">Bath Brushes</a>
+            </p>
+            <p>
+              <a href="/">Loofahs</a>
+            </p>
+            <p>
+              <a href="/">Shower Caps</a>
             </p>
           </div>
           <div className={styles.footerEnd}>

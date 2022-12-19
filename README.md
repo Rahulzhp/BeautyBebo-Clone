@@ -1,4 +1,4 @@
-# Anthropologie-Clone
+# Beauty Bebo-Clone
 Beauty Bebo is India’s fastest growing online retail store for the day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products. User can Signup and login add their Products to Cart. This website clone is made using React, Chakra UI, JavaScript etc.
 
 # Teach-Stack
